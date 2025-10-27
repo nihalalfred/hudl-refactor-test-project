@@ -3,7 +3,7 @@
 This is part 2 of the initial project i.e, https://github.com/nihalalfred/hudl-test-project, which has been reviewed and refactored to enhance the overall coding structure.
 
 Some of the things done as part of this refactored project are:
--**Fixed the assertio pattern**: `expect().toBeVisible()` instead of the earlier `.isVisible()`
+- **Fixed the assertio pattern**: `expect().toBeVisible()` instead of the earlier `.isVisible()`
 - **Enhanced page loading**: `{waitUntil:'networkidle'}` or `.waitForLoadState('networkidle')`
 - **Better Organisation**: use of test `tags` for better test management & clear seperation of concerns `test.describe`
 -**Added Content verification**: `toContain()`, `textContent()`
@@ -16,3 +16,4 @@ Some of the things done as part of this refactored project are:
 - Removed **unused imports**
 
 You can view all these changes here: https://github.com/nihalalfred/hudl-refactor-test-project/tree/main/hudl-test-project
+
